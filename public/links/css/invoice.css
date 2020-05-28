@@ -1,0 +1,184 @@
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+        /* Spacing */
+        
+        .order-branding {
+            margin-bottom: 20px;
+        }
+        
+        .order-addresses {
+            margin-bottom: 10px;
+        }
+        
+        .order-info {
+            margin-bottom: 40px;
+        }
+        
+        .order-items,
+        .order-notes,
+        .order-thanks {
+            margin-bottom: 40px;
+        }
+        /* Branding */
+        
+        .order-branding h1 {
+            display: table-cell;
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 1px 3px 1px 0px;
+        }
+        
+        .order-branding p {
+            font-size: 1em;
+            margin-block-start: 0em;
+            margin-block-end: 1em;
+        }
+        /* Addresses */
+        
+        .order-addresses {
+            display: table;
+            width: 100%;
+        }
+        
+        .billing-address {
+            display: table-cell;
+            padding: 0px;
+        }
+        
+        .billing-address h3 {
+            display: table-cell;
+            padding: 1px 3px 1px 0px;
+        }
+        
+        .shipping-address {
+            display: table-cell;
+        }
+        
+        .order-info,
+        table th,
+        table td {
+            padding: 6px 12px;
+        }
+        /* Order */
+        
+        table {
+            width: 100%;
+        }
+        
+        table tr {
+            border-bottom: 1px solid #dddddd;
+        }
+        
+        table th,
+        table td {
+            padding: 6px 12px;
+        }
+        
+        table.order-info {
+            border: 1px solid #ddd;
+        }
+        
+        table.order-info th {
+            text-align: left;
+            width: 30%;
+            border: 1px solid #ddd;
+        }
+        
+        table.order-items {
+            border: 2px solid #000;
+        }
+        
+        table.order-items thead tr {
+            border-bottom: 2px solid #000;
+        }
+        
+        table.order-items tbody tr:last-of-type {
+            border-bottom: 1px solid #000;
+        }
+        
+        .product {
+            text-align: left;
+            border: 1px solid #000;
+        }
+        
+        .product dl {
+            margin: 0;
+        }
+        
+        .product dt {
+            font-weight: 600;
+            padding-right: 6px;
+            float: left;
+            clear: left;
+        }
+        
+        .product dd {
+            float: left;
+            margin: 0;
+        }
+        
+        .price {
+            text-align: right;
+            border: 1px solid #000;
+        }
+        
+        .total {
+            text-align: right;
+            border: 1px solid #000;
+        }
+        
+        .qty {
+            text-align: center;
+            border: 1px solid #000;
+        }
+        
+        /*tfoot {
+            text-align: right;
+        }*/
+        
+        tfoot th {
+            width: 70%;
+        }
+        
+        tfoot tr.order-total {
+            font-weight: bold;
+        }
+        
+        tfoot tr.pos_cash-tendered th,
+        tfoot tr.pos_cash-tendered td {
+            border-top: 1px solid #000;
+        }
+        
+        .signature-left {
+            text-align: center;
+            border: 1px solid #fff;
+            padding-top: 100px;
+        }
+        
+        .signature-right {
+            text-align: center;
+            border: 1px solid #fff;
+            padding-top: 100px;
+        }
+        .company-address {
+            font-weight: 700;
+        }
+        .right-invoice {
+            text-align: right;
+            margin-left: 0px;
+            margin-bottom: -55px;
+            font-size: 40px;
+            font-weight: 700;
+        }
+        
+        .footer {
+            text-align: center;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer p {
+            text-align: center;
+        }
